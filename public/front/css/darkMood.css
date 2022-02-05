@@ -1,0 +1,76 @@
+/* Start Dark Mood  */
+.light,
+.light form .search,
+.light .preview-post .row .comments,
+.light .preview-post .row .comments .comment-person .information p:first-child,
+.light .preview-post .row .col-md-9 .row .fcol,
+.light .scol {
+  background-color: #2e2e2e;
+  transition: all 0.5s ease-in-out;
+}
+.light nav {
+  background-color: #1d1d1d;
+}
+.light .upload-btn {
+  background-color: #3b3b3b !important;
+}
+.light .search {
+  background-color: #eec212;
+  color: #000;
+  border: 2px solid #eec212;
+}
+.light .form .se-input {
+  border: #eec212;
+  background-color: #000000;
+  border: 2px solid #eec212;
+  color: #eec212;
+}
+.light .dropdown button {
+  border: 2px solid #eec212 !important;
+  background-color: #000 !important;
+  color: #eec212 !important;
+}
+
+.light .notifecate .notificate-icon {
+  background-color: #3d3d3d !important;
+}
+.light .notifecate .notificate-icon i {
+  color: #eec212 !important;
+  background-color: #3d3d3d;
+}
+.light .information p:first-of-type {
+  color: #fff !important;
+}
+.light .fpra {
+  color: #fff;
+}
+.light .comment .name p:first-of-type {
+  color: #eec212;
+}
+.light .comment .name p:last-of-type {
+  color: #fff;
+}
+.light .filter .col-md-4 .card {
+  border: none !important;
+}
+
+.light .filter .col-md-4 .card .card-body {
+  background-color: #1d1d1d;
+}
+.light .filter .col-md-4 .card .card-body .break {
+  color: #fff;
+}
+.light .filter .col-md-4 .card .card-body .info .date p:first-of-type {
+  color: #fff !important;
+}
+.light .uk-modal-dialog {
+  background-color: #1d1d1d !important;
+}
+.light .uk-modal-dialog label {
+  color: #fff;
+}
+.light .uk-modal-dialog .uploadvideo .row .col-md-6 p {
+  color: #fff !important;
+}
+
+/* End Dark Mood  */

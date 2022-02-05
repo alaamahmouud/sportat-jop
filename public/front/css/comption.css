@@ -1,0 +1,38 @@
+@media (min-width: 360px) and (max-width: 768px) {
+}
+
+/* Small */
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Medium */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Large */
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+}
+html {
+  background-color: #f1f1f1;
+}
+body {
+  background-color: #f1f1f1 !important;
+}
+.container-xxl {
+  background-color: #fff;
+}
+.container-xxl .row .col-md-12 {
+  padding: 2%;
+}
+.container-xxl .row .col-md-12 h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-xxl .row .col-md-12 p {
+  font-size: 20px;
+  color: #707070;
+  margin-bottom: 1%;
+}

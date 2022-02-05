@@ -1,0 +1,614 @@
+@media (min-width: 360px) and (max-width: 768px) {
+  nav .container-fluid .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav .container-fluid .row .aa {
+    display: flex;
+    align-items: baseline !important;
+    flex-direction: column-reverse !important;
+    margin-top: 5%;
+  }
+  nav .container-fluid .row .aa .upload-btn {
+    width: 100%;
+  }
+}
+
+/* Small */
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Medium */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Large */
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+}
+html {
+  background-color: #f1f1f1;
+}
+body {
+  background-color: #f1f1f1;
+}
+
+html {
+  background-color: #f1f1f1;
+}
+body {
+  background-color: #f1f1f1;
+  height: fit-content;
+}
+nav {
+  padding: 1% 5% !important;
+  box-shadow: 0px 0px 10px #00000012;
+  background-color: #fff;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+nav .row {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+/* Start Logo  */
+nav .container-fluid .logo img {
+  width: 100%;
+  height: 80px;
+}
+/* End logo  */
+
+/* Start Search  */
+nav .row .form {
+  width: 100%;
+}
+
+nav .row .col-md-5 form .se-input {
+  border: #eec212 1px solid;
+  border-radius: 10px;
+  outline: none;
+}
+nav .row .col-md-5 form .search {
+  outline: none;
+  background-color: #000;
+  border-radius: 10px;
+  color: #eec212;
+  font-size: 14px;
+  padding: 0.5% 10%;
+}
+/*  End Search  */
+
+nav .row .col-md-4 {
+  text-align: end;
+}
+nav .row .col-md-4 .upload-btn {
+  background-color: #fcf3cf;
+  border-radius: 10px;
+  color: #eec212;
+  font-size: 14px;
+}
+nav .row .col-md-4 .notificate-icon {
+  background-color: #fcf3cf;
+  height: fit-content;
+  width: fit-content;
+  color: #eec212;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+}
+nav .row .col-md-4 .choose-moode {
+  background-color: #fcf3cf;
+  color: #eec212;
+  font-size: 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  padding: 11% 49% 1% 17%;
+}
+nav .row .col-md-4 .dropdown .btn-lang {
+  background-color: #fff;
+  border: 2px solid #000000;
+  color: #000;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px #ffdf5d96;
+}
+/* Start Uload-show-video  */
+.video-list ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.video-list ul li {
+  list-style: none !important;
+  width: 99%;
+  margin: 5px;
+  position: relative;
+  padding: 0;
+  border: 2px dotted #f1f1f1;
+  height: fit-content;
+}
+
+.video-list ul li span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.uploadvideo .row .col-md-6 .btn1 {
+  width: 100%;
+  border: 5px dotted #000;
+  border: none;
+  margin: 1% auto;
+  padding: 2%;
+}
+
+/* End upload-show-video  */
+.big-modal {
+  z-index: 897897897879;
+}
+.big-modal .uploadvideo .row .col-md-6 form textarea {
+  width: 100%;
+  outline: none;
+  background-color: #eee;
+  padding: 2% 3%;
+  border: none;
+  border-radius: 7px;
+}
+.big-modal .uploadvideo .row .col-md-6 form input {
+  width: 100%;
+  outline: none;
+  background-color: #eee;
+  padding: 2% 3%;
+  border: none;
+  margin-bottom: 2%;
+  border-radius: 7px;
+}
+.big-modal .uploadvideo .row .col-md-6 p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.big-modal .uploadvideo .row .col-md-6 .last-form .btn2 {
+  background-color: #eec212;
+  color: #000;
+  border: none;
+  padding: 1% 10%;
+  font-size: 22px;
+  border-radius: 12px;
+  margin: 1% 35.5%;
+}
+/* Start CSS For Modal  */
+
+/* Start Css Notification  */
+.notifecate .notificate-icon {
+  position: relative;
+}
+.notifecate .notificate-icon span {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bolder;
+  color: #eec212;
+  background: black;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding: inherit;
+  top: -5px;
+  right: -7px;
+}
+.notification {
+  overflow: hidden;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0.2% 3%;
+}
+.notifecate .cards .pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  float: left;
+}
+.notifecate .cards {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 10px;
+}
+.notifecate .cards .date-of-noti span {
+  font-size: 10px;
+  color: #7c7c7c;
+}
+.notifecate .cards .vote {
+  padding-top: 3%;
+  text-align: left;
+  padding-left: 22%;
+}
+.notifecate .cards .vote span.name {
+  font-size: 15px;
+  font-weight: bolder;
+}
+/* End  Css Notification */
+
+/* End Navbar  */
+/* Start cover  */
+.cover {
+  overflow: hidden;
+  padding: 0 !important;
+}
+.cover .pic-cover {
+  background-size: cover;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 101.8%;
+}
+.cover .row .setting {
+  border: none;
+  margin-top: 3%;
+  text-align: center;
+}
+.cover .row .setting button {
+  border: none;
+  color: #7c7c7c;
+  font-size: 25px;
+  background-color: #fff;
+}
+.cover .row .col-md-3 {
+  margin: 2% auto;
+}
+.cover .row .col-md-3 .personal-pic {
+  background-size: cover;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: -115%;
+  border: 7px solid #fff;
+  margin: auto;
+  left: 43.5%;
+}
+.cover .col-md-3 .personal-pic span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+  background-color: #eee;
+  text-decoration: underline;
+  padding: 0.5% 10%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cover .col-md-1 .edit {
+  background-color: #eee;
+  position: absolute;
+  top: -22%;
+  padding: 0.1% 1%;
+  border: none;
+  text-decoration: underline;
+  color: #000;
+  border-radius: 4px;
+}
+/* Start Bio  */
+.cover .name-bio {
+  background-color: #fff;
+}
+.cover .name-bio .name p:first-child {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+.cover .name-bio .name p:last-child {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.cover .name-bio .bio p {
+  text-align: center;
+  font-size: 21px;
+  color: #7c7c7c;
+  margin: 0;
+  width: 80%;
+  margin: 1% auto;
+}
+/* End bio  */
+/* Start rank-vote-view  */
+.cover .rank-vote-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #fff;
+  padding: 2% 0;
+}
+.cover .rank-vote-view .rank p:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+.cover .rank-vote-view .rank p:last-child {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.cover .rank-vote-view .votes p:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+.cover .rank-vote-view .votes p:last-child {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cover .rank-vote-view .views p:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+.cover .rank-vote-view .views p:last-child {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* End rank-vote-view  */
+
+/* Start post  */
+.posts {
+  background-color: #fff;
+  padding: 3%;
+}
+.posts .col-md-12 {
+  background-color: #fff;
+  margin-bottom: 2%;
+  border: solid 1px #eee;
+  box-shadow: 0px 0px 6px #00000029;
+  padding: 2%;
+}
+.posts .col-md-12 video {
+  width: 100%;
+  max-height: 400px;
+}
+.posts .col-md-12 .video-name p {
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0.5% 3%;
+}
+.posts .col-md-12 .info-video {
+  display: flex;
+  align-items: center;
+  padding: 0% 3%;
+  margin-top: 2%;
+}
+.posts .col-md-12 .info-video .pic {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.posts .col-md-12 .info-video .view-date {
+  padding: 0% 2%;
+}
+.posts .col-md-12 .info-video .view-date p {
+  margin: 0;
+  padding: 0;
+}
+.posts .col-md-12 .info-video .view-date p:first-child {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.posts .col-md-12 .info-video .view-date p:last-child {
+  font-size: 18px;
+  color: #949494;
+}
+.posts .col-md-12 .info-video .view-date p:nth-child(2) {
+  font-size: 18px;
+  color: #949494;
+}
+
+/* End Post  */
+
+/* End Cover  */
+
+/* Start Modal  */
+
+.setting-modal .uk-modal-body .container .row .col-md-6 form input {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 6px;
+  color: #949494;
+  border: none;
+  padding: 1% 2%;
+  outline: none;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-size: 21px;
+}
+
+.setting-modal .uk-modal-body .container .row .col-md-6 form select {
+  background-color: #eee;
+  color: #949494;
+  outline: none !important;
+  margin-top: 1.7%;
+  margin-bottom: 1.4%;
+  border: none;
+  font-size: 21px;
+  border-radius: 6px;
+}
+
+.setting-modal .uk-modal-body .container .row .col-md-12 textarea {
+  width: 100%;
+  background-color: #eee;
+  color: #949494;
+  border: none;
+  outline: none;
+  font-size: 21px;
+  border-radius: 6px;
+  padding: 1% 2%;
+}
+.setting-modal .uk-modal-body .container .password {
+  margin-top: 2%;
+}
+.setting-modal .uk-modal-body .container .password p {
+  font-size: 19px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.setting-modal .uk-modal-body .container .password input {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 6px;
+  font-size: 20px;
+  opacity: 1;
+  border: none;
+  outline: none;
+  padding: 1% 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.setting-modal .uk-modal-body .container .password .save {
+  background-color: #eec212;
+  box-shadow: 0px 0px 6px #ffdf5d96;
+  border: none;
+  border-radius: 10px;
+  padding: 1% 5%;
+  font-size: 22px;
+}
+.setting-modal .uk-modal-body .container .password .cancle {
+  background-color: #fff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 1% 3%;
+  font-size: 21px;
+}
+
+/* End Modal  */
+
+/* Start Dark Mood  */
+.light,
+.light form .search,
+.light .preview-post .row .comments,
+.light .preview-post .row .comments .comment-person .information p:first-child,
+.light .preview-post .row .col-md-9 .row .fcol,
+.light .scol {
+  background-color: #2e2e2e !important;
+  transition: all 0.5s ease-in-out;
+}
+.light nav {
+  background-color: #1d1d1d;
+}
+.light .upload-btn {
+  background-color: #3b3b3b !important;
+}
+.light .search {
+  background-color: #eec212;
+  color: #000;
+  border: 2px solid #eec212;
+}
+.light .form .se-input {
+  border: #eec212;
+  background-color: #000000;
+  border: 2px solid #eec212;
+  color: #eec212;
+}
+.light .dropdown button {
+  border: 2px solid #eec212 !important;
+  background-color: #000 !important;
+  color: #eec212 !important;
+}
+
+.light .notifecate .notificate-icon {
+  background-color: #3d3d3d !important;
+}
+.light .notifecate .notificate-icon i {
+  color: #eec212 !important;
+  background-color: #3d3d3d;
+}
+.light nav {
+  background-color: #1d1d1d;
+}
+.light .upload-btn {
+  background-color: #3b3b3b !important;
+}
+.light .search {
+  background-color: #eec212;
+  color: #000;
+  border: 2px solid #eec212;
+}
+.light .form .se-input {
+  border: #eec212;
+  background-color: #000000;
+  border: 2px solid #eec212;
+  color: #eec212;
+}
+.light .dropdown button {
+  border: 2px solid #eec212 !important;
+  background-color: #000 !important;
+  color: #eec212 !important;
+}
+
+.light .notifecate .notificate-icon {
+  background-color: #3d3d3d !important;
+}
+.light .notifecate .notificate-icon i {
+  color: #eec212 !important;
+  background-color: #3d3d3d;
+}
+.light .cover .row {
+  background-color: #3d3d3d !important;
+}
+.light .setting button {
+  background-color: #3b3b3b !important;
+}
+.light .cover .col-md-3 .personal-pic {
+  border: 7px solid #3d3d3d;
+}
+.light .name-bio .name p:first-of-type {
+  color: #fff;
+}
+.light .rank-vote-view {
+  background-color: #3d3d3d;
+}
+.light .posts .col-md-12 {
+  background-color: #3b3b3b;
+  border: none;
+}
+.light .video-name {
+  color: #eec212;
+}
+.light .view-date p:first-of-type {
+  color: #fff;
+}
+.light .navbar-toggler {
+  background-color: #eec212 !important;
+}

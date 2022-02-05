@@ -1,0 +1,502 @@
+@media (min-width: 360px) and (max-width: 768px) {
+  nav .container-fluid .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav .container-fluid .row .aa {
+    display: flex;
+    align-items: baseline !important;
+    flex-direction: column-reverse !important;
+    margin-top: 5%;
+  }
+  nav .container-fluid .row .aa .upload-btn {
+    width: 100%;
+  }
+  .filter {
+    margin-top: 5%;
+  }
+}
+
+/* Small */
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Medium */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Large */
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+}
+html {
+  background-color: #f1f1f1;
+}
+body {
+  background-color: #f1f1f1;
+  height: fit-content;
+}
+nav {
+  padding: 1% 5% !important;
+  box-shadow: 0px 0px 10px #00000012;
+  background-color: #fff;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+nav .row {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+/* Start Logo  */
+nav .container-fluid .logo img {
+  width: 100%;
+  height: 80px;
+}
+/* End logo  */
+
+/* Start Search  */
+nav .row .form {
+  width: 100%;
+}
+
+nav .row .col-md-5 form .se-input {
+  border: #eec212 1px solid;
+  border-radius: 10px;
+  outline: none;
+}
+nav .row .col-md-5 form .search {
+  outline: none;
+  background-color: #000;
+  border-radius: 10px;
+  color: #eec212;
+  font-size: 14px;
+  padding: 0.5% 10%;
+}
+/*  End Search  */
+
+nav .row .col-md-4 {
+  text-align: end;
+}
+nav .row .col-md-4 .upload-btn {
+  background-color: #fcf3cf;
+  border-radius: 10px;
+  color: #eec212;
+  font-size: 14px;
+}
+nav .row .col-md-4 .notificate-icon {
+  background-color: #fcf3cf;
+  height: fit-content;
+  width: fit-content;
+  color: #eec212;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+}
+nav .row .col-md-4 .choose-moode {
+  background-color: #fcf3cf;
+  color: #eec212;
+  font-size: 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  padding: 11% 49% 1% 17%;
+}
+nav .row .col-md-4 .dropdown .btn-lang {
+  background-color: #fff;
+  border: 2px solid #000000;
+  color: #000;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px #ffdf5d96;
+}
+/* Start Uload-show-video  */
+.video-list ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.video-list ul li {
+  list-style: none !important;
+  width: 99%;
+  margin: 5px;
+  position: relative;
+  padding: 0;
+  border: 2px dotted #f1f1f1;
+  height: fit-content;
+}
+
+.video-list ul li span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.uploadvideo .row .col-md-6 .btn1 {
+  width: 100%;
+  border: 5px dotted #000;
+  border: none;
+  margin: 1% auto;
+  padding: 2%;
+}
+
+/* End upload-show-video  */
+.big-modal {
+  z-index: 897897897879;
+}
+.big-modal .uploadvideo .row .col-md-6 form textarea {
+  width: 100%;
+  outline: none;
+  background-color: #eee;
+  padding: 2% 3%;
+  border: none;
+  border-radius: 7px;
+}
+.big-modal .uploadvideo .row .col-md-6 form input {
+  width: 100%;
+  outline: none;
+  background-color: #eee;
+  padding: 2% 3%;
+  border: none;
+  margin-bottom: 2%;
+  border-radius: 7px;
+}
+.big-modal .uploadvideo .row .col-md-6 p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.big-modal .uploadvideo .row .col-md-6 .last-form .btn2 {
+  background-color: #eec212;
+  color: #000;
+  border: none;
+  padding: 1% 10%;
+  font-size: 22px;
+  border-radius: 12px;
+  margin: 1% 35.5%;
+}
+/* Start CSS For Modal  */
+
+/* Start Css Notification  */
+.notifecate .notificate-icon {
+  position: relative;
+}
+.notifecate .notificate-icon span {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bolder;
+  color: #eec212;
+  background: black;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding: inherit;
+  top: -5px;
+  right: -7px;
+}
+.notification {
+  overflow: hidden;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0.2% 3%;
+}
+.notifecate .cards .pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  float: left;
+}
+.notifecate .cards {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 10px;
+}
+.notifecate .cards .date-of-noti span {
+  font-size: 10px;
+  color: #7c7c7c;
+}
+.notifecate .cards .vote {
+  padding-top: 3%;
+  text-align: left;
+  padding-left: 22%;
+}
+.notifecate .cards .vote span.name {
+  font-size: 15px;
+  font-weight: bolder;
+}
+/* End  Css Notification */
+
+/* End Navbar  */
+
+/* Start Post  */
+.preview-post {
+  margin-top: 3%;
+}
+.preview-post .row .col-md-9 .post .pic {
+  height: 100%;
+  width: 100%;
+}
+.preview-post .row .col-md-9 .post .pic video {
+  width: 100%;
+  height: 100%;
+}
+.preview-post .row .col-md-9 .row .fcol {
+  background-color: #fff;
+  padding: 0 3% 0.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .one .caption {
+  width: 60%;
+}
+/* start p  */
+.preview-post .row .col-md-9 .row .col-md-12 .one .caption p {
+  display: inline;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 0;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .one .caption p.fpra {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .one .caption p.spra {
+  font-size: 20px;
+  color: #eec212;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .one .caption p.tpra {
+  font-size: 14px;
+  color: #949494;
+  margin-left: 0.5%;
+}
+
+/* End P  */
+
+/* Start Buttons  */
+.preview-post .row .col-md-9 .row .col-md-12 .one .btns-group {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+.preview-post
+  .row
+  .col-md-9
+  .row
+  .col-md-12
+  .one
+  .btns-group
+  button:first-child {
+  padding: 1.5% 7%;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+.preview-post
+  .row
+  .col-md-9
+  .row
+  .col-md-12
+  .one
+  .btns-group
+  button:last-child {
+  padding: 1.5% 7%;
+  border: 1px solid #000;
+  color: #eec212;
+  background-color: #000;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+/* End Buttons  */
+/* start num vote-views */
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 0%;
+}
+
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .vote p {
+  padding: 0;
+  margin: 0;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .vote p:first-child {
+  font-size: 24px;
+  color: #eec212;
+  text-align: center;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .vote p:last-child {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .views p {
+  padding: 0;
+  margin: 0;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .views p:first-child {
+  font-size: 24px;
+  color: #eec212;
+  text-align: center;
+}
+.preview-post .row .col-md-9 .row .col-md-12 .vote-view .views p:last-child {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+/* End num vote-views */
+
+/* Start Comment */
+.scol {
+  background-color: #fff;
+  padding: 2% 4%;
+  margin-bottom: 1%;
+}
+.scol .comment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: baseline;
+}
+.scol .comment .pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.scol .comment .name {
+  padding: 0% 2%;
+}
+.scol .comment .name p {
+  margin: 0;
+  padding: 0;
+}
+/* End Comment  */
+.preview-post .row .comments {
+  background-color: #fff;
+  padding: 1% 1%;
+  height: 772px;
+  overflow-y: scroll;
+}
+.preview-post .row .comments form {
+  width: 100%;
+}
+
+.preview-post .row .comments form input {
+  outline: none;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 1% 2%;
+  width: calc(100% - 30%);
+}
+
+.preview-post .row .comments form button {
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.5% 5.5%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.preview-post .row .comments .comment-person {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.preview-post .row .comments .comment-person .pic {
+  background-size: contain;
+  height: 4rem;
+  width: 13rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.preview-post .row .comments .comment-person .information {
+  padding: 1%;
+}
+.preview-post .row .comments .comment-person .information p {
+  padding: 0;
+  margin: 0;
+}
+.preview-post .row .comments .comment-person .information p:first-child {
+  display: inline;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.preview-post .row .comments .comment-person .information p:last-child {
+  font-size: 14px;
+  color: #7c7c7c;
+  line-height: 1.3;
+}
+.preview-post .row .comments .comment-person .information span {
+  font-size: 10px;
+  color: #7c7c7c;
+  text-align: right;
+}
+/* End Post  */
+
+/* Start Cards  */
+
+.filter .row .col-md-4 {
+  margin-bottom: 2%;
+}
+.filter .row .col-md-4 .card .image {
+  width: 100%;
+}
+.filter .row .col-md-4 .card .image video {
+  width: 100%;
+}
+.filter .row .col-md-4 .card .card-body .info {
+  margin-top: 2%;
+}
+.filter .row .col-md-4 .card .card-body .info .pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  float: left;
+}
+.filter .row .col-md-4 .card .card-body .break {
+  font-size: 15px;
+  font-weight: bolder;
+  display: inline;
+  text-align: left;
+}
+.filter .row .col-md-4 .card .card-body span {
+  float: right;
+  color: #949494;
+  font-size: 11px;
+}
+.filter .row .col-md-4 .card .card-body .info .date {
+  padding-left: 15%;
+}
+.filter .row .col-md-4 .card .card-body .info .date p {
+  font-size: 11px;
+  color: #949494;
+  margin: 0;
+}
+/* End Filter  */
